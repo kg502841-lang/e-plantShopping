@@ -250,3 +250,16 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+/* Add to Cart button once the plant is in the cart */
+.product-button.added-to-cart,
+.product-button:disabled {
+    background-color: #9e9e9e;
+    cursor: not-allowed;
+}
+.product-button:disabled:hover {
+    background-color: #9e9e9e;
+}
+.product-description {
+    margin: 10px 0;
+    color: #555;
+}
